@@ -1,6 +1,8 @@
 # BallStim
 
-A small side project I made while getting to know PsychoPy and seeing what I could build with it. It draws coloured balls that drift, bounce, split and merge, at three levels of visual stimulation, and you can tune everything from a spreadsheet.
+Hi! 👋 This is a small side project I made while getting to know PsychoPy and seeing what I could build with it. It draws colourful balls that drift, bounce, split and merge, at three levels of visual stimulation, and you can tune everything from a spreadsheet.
+
+I also wanted it to be easy for anyone to use, even if you have never written a line of code. No programming needed: double-click to start, pick from a menu, and change settings in Excel.
 
 | low | medium | high |
 |:---:|:---:|:---:|
@@ -50,7 +52,7 @@ python app/ballstim.py --row low --mode play --windowed --no-form
 
 ## Changing the settings
 
-`settings.xlsx` holds every setting, one row per version of the animation. To make your own, copy a row, give it a new name, change the values, then save and close the file. It shows up in the dropdown next time. The Guide sheet explains every column, and hovering over a column heading on the Settings sheet shows a short reminder.
+`settings.xlsx` holds every setting, one row per version of the animation. Want your own version? Copy a row, give it a new name, change the values, then save and close the file. It shows up in the dropdown next time. The Guide sheet explains every column, and hovering over a column heading on the Settings sheet shows a short reminder.
 
 ## Records
 
@@ -87,4 +89,4 @@ docs/                the GIFs in this README
 
 ## Licence
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE). Feel free to use it, change it and make it your own. Have fun! 🎨
